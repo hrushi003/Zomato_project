@@ -1,0 +1,755 @@
+==================== 2026-10-14T08:42:31.913761Z | 01a13993-d429-7742-841c-df51edefea49 ====================
+08:42:32.906336 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [992ms]
+==================== 2026-10-16T12:09:00.459562Z | 01a1449d-9521-7f20-ade5-4aa6a3d1856d ====================
+12:09:00.987394 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [527ms]
+[0m17:49:36.808616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCFFACA1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCFF54FFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCFFFC1580>]}
+
+
+============================== 17:49:36.823023 | b11605b2-328b-4f8a-b419-eb5c4666d649 ==============================
+[0m17:49:36.823023 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:49:36.823023 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:49:36.824027 [debug] [MainThread]: Tracking: tracking
+[0m17:49:36.828645 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  Could not find profile named 'zomato_food_delivery'
+[0m17:49:36.829646 [debug] [MainThread]: Command `dbt run` failed at 17:49:36.828645 after 0.25 seconds
+[0m17:49:36.829646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD013F7B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD01A73350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CD01CA3650>]}
+[0m17:49:36.829646 [debug] [MainThread]: Flushing usage events
+[0m17:49:38.056498 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:51:16.804977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D1B8BC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D4191700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D4F2FCE0>]}
+
+
+============================== 17:51:16.810886 | 69085c7a-e12f-4f37-af5a-22047c439e9f ==============================
+[0m17:51:16.810886 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:51:16.812883 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:51:16.812883 [debug] [MainThread]: Tracking: tracking
+[0m17:51:17.247147 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:51:17.247147 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:51:17.248147 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:51:17.633175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '69085c7a-e12f-4f37-af5a-22047c439e9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8CFC6FAD0>]}
+[0m17:51:17.714736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '69085c7a-e12f-4f37-af5a-22047c439e9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D61E7230>]}
+[0m17:51:17.716712 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:51:18.050893 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Compilation Error
+  dbt expects 5 package(s) based on packages specified in packages.yml, but found only 0 package(s) installed in dbt_packages. Following packages were not found: dbt_utils, dbt_expectations, audit_helper, dbt_date, elementary. Run "dbt deps" to install package dependencies.
+[0m17:51:18.053796 [debug] [MainThread]: Command `dbt run` failed at 17:51:18.052798 after 1.47 seconds
+[0m17:51:18.054794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D436FA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D4E20470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8D71464B0>]}
+[0m17:51:18.054794 [debug] [MainThread]: Flushing usage events
+[0m17:51:19.332573 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:51:39.912489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A10C7F050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A10BDD550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A10BDE2A0>]}
+
+
+============================== 17:51:39.922032 | aae8d244-dfb9-409b-8e7a-95e62120d880 ==============================
+[0m17:51:39.922032 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:51:39.923083 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt compile', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:51:39.923083 [debug] [MainThread]: Tracking: tracking
+[0m17:51:40.364525 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:51:40.365528 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:51:40.365528 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:51:40.614067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aae8d244-dfb9-409b-8e7a-95e62120d880', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A1460CCB0>]}
+[0m17:51:40.675824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'aae8d244-dfb9-409b-8e7a-95e62120d880', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A14668110>]}
+[0m17:51:40.676824 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:51:40.954419 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Compilation Error
+  dbt expects 5 package(s) based on packages specified in packages.yml, but found only 0 package(s) installed in dbt_packages. Following packages were not found: elementary, dbt_date, audit_helper, dbt_expectations, dbt_utils. Run "dbt deps" to install package dependencies.
+[0m17:51:40.955325 [debug] [MainThread]: Command `dbt compile` failed at 17:51:40.955325 after 1.22 seconds
+[0m17:51:40.956429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A12499DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A14AC3470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A14AC1F40>]}
+[0m17:51:40.956429 [debug] [MainThread]: Flushing usage events
+[0m17:51:43.567164 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:52:09.603051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA25302F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA2533410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA2530AD0>]}
+
+
+============================== 17:52:09.612047 | 22b10f51-1f53-48f9-92fc-ac86cd2d22d5 ==============================
+[0m17:52:09.612047 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:52:09.613046 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt deps', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:52:09.613046 [debug] [MainThread]: Tracking: tracking
+[0m17:52:09.753810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F9E3C1C70>]}
+[0m17:52:10.153655 [debug] [MainThread]: Set downloads directory='C:\Users\hrush\AppData\Local\Temp\dbt-downloads-6xw7n7qg'
+[0m17:52:10.154708 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m17:52:10.700237 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m17:52:10.702336 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m17:52:11.115946 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m17:52:11.125944 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/metaplane/dbt_expectations.json
+[0m17:52:12.203784 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/metaplane/dbt_expectations.json 200
+[0m17:52:12.209772 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/audit_helper.json
+[0m17:52:12.841512 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/audit_helper.json 200
+[0m17:52:12.846615 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/elementary-data/elementary.json
+[0m17:52:13.246057 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/elementary-data/elementary.json 200
+[0m17:52:13.254051 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/godatadriven/dbt_date.json
+[0m17:52:14.150723 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/godatadriven/dbt_date.json 200
+[0m17:52:14.173175 [info ] [MainThread]: Updating lock file in file path: C:\Users\hrush\Desktop\Snowflake\DBT\Projects-Sushil\reference_doc-20261014T074858Z-1-001\reference_doc\Code_repo\Code_repo\dbt_shared/package-lock.yml
+[0m17:52:14.184937 [debug] [MainThread]: Set downloads directory='C:\Users\hrush\AppData\Local\Temp\dbt-downloads-h983c39k'
+[0m17:52:14.200226 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m17:52:15.184933 [info ] [MainThread]: Installed from version 1.4.1
+[0m17:52:15.184933 [info ] [MainThread]: Up to date!
+[0m17:52:15.185933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA27332F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA26BCA70>]}
+[0m17:52:15.185933 [info ] [MainThread]: Installing metaplane/dbt_expectations
+[0m17:52:17.013147 [info ] [MainThread]: Installed from version 0.10.10
+[0m17:52:17.014126 [info ] [MainThread]: Up to date!
+[0m17:52:17.015129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA2421F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA04481A0>]}
+[0m17:52:17.015129 [info ] [MainThread]: Installing dbt-labs/audit_helper
+[0m17:52:18.529444 [info ] [MainThread]: Installed from version 0.14.0
+[0m17:52:18.530442 [info ] [MainThread]: Up to date!
+[0m17:52:18.530442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA04CD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA041F7D0>]}
+[0m17:52:18.531443 [info ] [MainThread]: Installing elementary-data/elementary
+[0m17:52:19.909782 [info ] [MainThread]: Installed from version 0.15.2
+[0m17:52:19.909782 [info ] [MainThread]: Updated version available: 0.26.1
+[0m17:52:19.910785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA2531880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA23C8BF0>]}
+[0m17:52:19.910785 [info ] [MainThread]: Installing godatadriven/dbt_date
+[0m17:52:20.762564 [info ] [MainThread]: Installed from version 0.21.0
+[0m17:52:20.762564 [info ] [MainThread]: Up to date!
+[0m17:52:20.763518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '22b10f51-1f53-48f9-92fc-ac86cd2d22d5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA0448260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA04481A0>]}
+[0m17:52:20.763518 [info ] [MainThread]: 
+[0m17:52:20.764558 [info ] [MainThread]: Updates available for packages: ['elementary-data/elementary']                 
+Update your versions in packages.yml, then run dbt deps
+[0m17:52:20.767517 [debug] [MainThread]: Command `dbt deps` succeeded at 17:52:20.767517 after 11.36 seconds
+[0m17:52:20.768628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA04CD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA23C8BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FA041F7D0>]}
+[0m17:52:20.768628 [debug] [MainThread]: Flushing usage events
+[0m17:52:22.209820 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:53:25.270714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002622308BE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026223A41490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026223A413D0>]}
+
+
+============================== 17:53:25.274712 | 25804a36-137b-4acb-a582-303532489e80 ==============================
+[0m17:53:25.274712 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:53:25.275710 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:53:25.275710 [debug] [MainThread]: Tracking: tracking
+[0m17:53:25.678957 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:53:25.679958 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:53:25.679958 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:53:25.934253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '25804a36-137b-4acb-a582-303532489e80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262273AB260>]}
+[0m17:53:25.992258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '25804a36-137b-4acb-a582-303532489e80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262273017C0>]}
+[0m17:53:25.994266 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:53:26.547827 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m17:53:26.548825 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:53:26.550122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '25804a36-137b-4acb-a582-303532489e80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026227978F50>]}
+[0m17:53:43.093631 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m17:53:43.094633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '25804a36-137b-4acb-a582-303532489e80', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026227DDAEA0>]}
+[0m17:53:47.592616 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m17:53:47.593617 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m17:53:47.595224 [debug] [MainThread]: Command `dbt run` failed at 17:53:47.595224 after 22.70 seconds
+[0m17:53:47.595224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002622542CA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026228058920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262231D90D0>]}
+[0m17:53:47.596236 [debug] [MainThread]: Flushing usage events
+[0m17:53:48.870952 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:55:25.711034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002674E1732F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002674A3AC3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026748CC7E30>]}
+
+
+============================== 17:55:25.715037 | cb676942-1b18-4712-9c75-875058828b2d ==============================
+[0m17:55:25.715037 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:55:25.716040 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select example.sql', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:55:25.717143 [debug] [MainThread]: Tracking: tracking
+[0m17:55:26.253443 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:55:26.253443 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:55:26.254495 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:55:26.568838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cb676942-1b18-4712-9c75-875058828b2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267508A4C50>]}
+[0m17:55:26.627838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cb676942-1b18-4712-9c75-875058828b2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002674ED830B0>]}
+[0m17:55:26.628839 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:55:26.946619 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m17:55:26.947516 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:55:26.947516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cb676942-1b18-4712-9c75-875058828b2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675077DA90>]}
+[0m17:55:27.184485 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m17:55:27.185381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'cb676942-1b18-4712-9c75-875058828b2d', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675088EB10>]}
+[0m17:55:31.698154 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m17:55:31.698154 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m17:55:31.700176 [debug] [MainThread]: Command `dbt run` failed at 17:55:31.700176 after 6.28 seconds
+[0m17:55:31.701096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002674C4A4740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267517257C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002674E422930>]}
+[0m17:55:31.701096 [debug] [MainThread]: Flushing usage events
+[0m17:55:32.877421 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:56:07.006671 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247A149790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224785CDD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022478C2EA20>]}
+
+
+============================== 17:56:07.011624 | 7a94b076-aed9-4ebc-808e-ac29db2a17fe ==============================
+[0m17:56:07.011624 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:56:07.011624 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt run --select .\\example.sql', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:56:07.012627 [debug] [MainThread]: Tracking: tracking
+[0m17:56:07.473377 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:56:07.473377 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:56:07.474379 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:56:07.727223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7a94b076-aed9-4ebc-808e-ac29db2a17fe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224759E1550>]}
+[0m17:56:07.792438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7a94b076-aed9-4ebc-808e-ac29db2a17fe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247AA1CEF0>]}
+[0m17:56:07.794369 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:56:08.097173 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m17:56:08.098173 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:56:08.099206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7a94b076-aed9-4ebc-808e-ac29db2a17fe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247D055790>]}
+[0m17:56:08.336087 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m17:56:08.337088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '7a94b076-aed9-4ebc-808e-ac29db2a17fe', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247D413E30>]}
+[0m17:56:12.689047 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m17:56:12.690091 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m17:56:12.691050 [debug] [MainThread]: Command `dbt run` failed at 17:56:12.691050 after 5.85 seconds
+[0m17:56:12.691050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022478C2EA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247D8FD970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002247DAC4C80>]}
+[0m17:56:12.692048 [debug] [MainThread]: Flushing usage events
+[0m17:56:14.724745 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:57:21.804786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151DF566BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151DF5A59D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151DF5A6DB0>]}
+
+
+============================== 17:57:21.810777 | 945d98ab-fff1-4cbf-be8e-dee7f8d8a502 ==============================
+[0m17:57:21.810777 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:57:21.810777 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:57:21.811818 [debug] [MainThread]: Tracking: tracking
+[0m17:57:21.858406 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m17:57:21.858406 [info ] [MainThread]: python version: 3.12.10
+[0m17:57:21.859397 [info ] [MainThread]: python path: C:\Users\hrush\Desktop\Snowflake\DBT\Projects-Sushil\reference_doc-20261014T074858Z-1-001\reference_doc\Code_repo\Code_repo\dbt_shared\.venv\Scripts\python.exe
+[0m17:57:21.859397 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:57:22.256544 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:57:22.257170 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:57:22.257170 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:57:22.365154 [info ] [MainThread]: Using profiles dir at C:\Users\hrush\.dbt
+[0m17:57:22.365154 [info ] [MainThread]: Using profiles.yml file at C:\Users\hrush\.dbt\profiles.yml
+[0m17:57:22.365154 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\hrush\Desktop\Snowflake\DBT\Projects-Sushil\reference_doc-20261014T074858Z-1-001\reference_doc\Code_repo\Code_repo\dbt_shared\dbt_project.yml
+[0m17:57:22.366149 [info ] [MainThread]: adapter type: snowflake
+[0m17:57:22.367159 [info ] [MainThread]: adapter version: 1.12.3
+[0m17:57:22.483707 [info ] [MainThread]: Configuration:
+[0m17:57:22.484707 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:57:22.484707 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:57:22.485809 [info ] [MainThread]: Required dependencies:
+[0m17:57:22.485809 [debug] [MainThread]: Executing "git --help"
+[0m17:57:22.549079 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:57:22.549079 [debug] [MainThread]: STDERR: "b''"
+[0m17:57:22.549079 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:57:22.550128 [info ] [MainThread]: Connection:
+[0m17:57:22.550128 [info ] [MainThread]:   account: hsc58486.us-east-1
+[0m17:57:22.551036 [info ] [MainThread]:   user: Hrushi003
+[0m17:57:22.551036 [info ] [MainThread]:   database: DEV_DB
+[0m17:57:22.551036 [info ] [MainThread]:   warehouse: DBT_WH
+[0m17:57:22.551036 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:57:22.552035 [info ] [MainThread]:   schema: SILVER_core
+[0m17:57:22.552035 [info ] [MainThread]:   authenticator: None
+[0m17:57:22.552035 [info ] [MainThread]:   oauth_client_id: None
+[0m17:57:22.552035 [info ] [MainThread]:   query_tag: None
+[0m17:57:22.553038 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:57:22.553038 [info ] [MainThread]:   host: None
+[0m17:57:22.553038 [info ] [MainThread]:   port: None
+[0m17:57:22.553038 [info ] [MainThread]:   proxy_host: None
+[0m17:57:22.554035 [info ] [MainThread]:   proxy_port: None
+[0m17:57:22.554035 [info ] [MainThread]:   protocol: None
+[0m17:57:22.554035 [info ] [MainThread]:   connect_retries: 1
+[0m17:57:22.555035 [info ] [MainThread]:   connect_timeout: None
+[0m17:57:22.555035 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:57:22.555035 [info ] [MainThread]:   retry_all: False
+[0m17:57:22.555035 [info ] [MainThread]:   insecure_mode: False
+[0m17:57:22.556035 [info ] [MainThread]:   reuse_connections: True
+[0m17:57:22.557045 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:57:22.558044 [info ] [MainThread]:   workload_identity_provider: None
+[0m17:57:22.559070 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m17:57:22.559070 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:57:22.559070 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:57:22.865299 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:57:22.875831 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:57:22.875831 [debug] [MainThread]: On debug: select 1 as id
+[0m17:57:22.875831 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:57:25.060252 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.185 seconds
+[0m17:57:25.061271 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:57:25.062262 [info ] [MainThread]: [32mAll checks passed![0m
+[0m17:57:25.063263 [debug] [MainThread]: Command `dbt debug` succeeded at 17:57:25.063263 after 3.46 seconds
+[0m17:57:25.063263 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:57:25.063263 [debug] [MainThread]: On debug: Close
+[0m17:57:25.567975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151DFC679E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151DFD4BCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000151E3BADE20>]}
+[0m17:57:25.567975 [debug] [MainThread]: Flushing usage events
+[0m17:57:26.780930 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:57:50.471697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718FFA3B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718FFA2450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718FFA2240>]}
+
+
+============================== 17:57:50.475699 | de460996-d374-4332-beeb-e64b67fc6828 ==============================
+[0m17:57:50.475699 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m17:57:50.476697 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select example.sql', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m17:57:50.476697 [debug] [MainThread]: Tracking: tracking
+[0m17:57:50.878249 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:57:50.879249 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:57:50.879249 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:57:51.202040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'de460996-d374-4332-beeb-e64b67fc6828', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171923938F0>]}
+[0m17:57:51.263666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'de460996-d374-4332-beeb-e64b67fc6828', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718C676C90>]}
+[0m17:57:51.264771 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m17:57:51.602535 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m17:57:51.603535 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:57:51.603535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'de460996-d374-4332-beeb-e64b67fc6828', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017192266EA0>]}
+[0m17:57:51.856309 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m17:57:51.857217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'de460996-d374-4332-beeb-e64b67fc6828', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000171928D9DF0>]}
+[0m17:57:56.324385 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m17:57:56.325388 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m17:57:56.326489 [debug] [MainThread]: Command `dbt run` failed at 17:57:56.326489 after 6.06 seconds
+[0m17:57:56.326489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718FFA2450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001718C3239B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017192F23470>]}
+[0m17:57:56.327480 [debug] [MainThread]: Flushing usage events
+[0m17:57:57.531017 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:00:27.493429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866DEB9340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866DEB8C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866DEB9430>]}
+
+
+============================== 18:00:27.498423 | ab555021-1226-4036-bef8-61e42173ff47 ==============================
+[0m18:00:27.498423 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:00:27.499427 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select example.sql', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:00:27.499427 [debug] [MainThread]: Tracking: tracking
+[0m18:00:27.935821 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:00:27.936730 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:00:27.936730 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:00:28.182745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ab555021-1226-4036-bef8-61e42173ff47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002867029CFB0>]}
+[0m18:00:28.250242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ab555021-1226-4036-bef8-61e42173ff47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866DF46DE0>]}
+[0m18:00:28.251243 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:00:28.572818 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:00:28.573813 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:00:28.574717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ab555021-1226-4036-bef8-61e42173ff47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000286702BE3F0>]}
+[0m18:00:28.818110 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:00:28.818110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ab555021-1226-4036-bef8-61e42173ff47', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028670364CE0>]}
+[0m18:00:32.696835 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:00:32.697831 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:00:32.698828 [debug] [MainThread]: Command `dbt run` failed at 18:00:32.698828 after 5.38 seconds
+[0m18:00:32.699830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866DEA1C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028670A8D970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000286709298B0>]}
+[0m18:00:32.699830 [debug] [MainThread]: Flushing usage events
+[0m18:00:33.960319 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:29.940949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4BF86450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4F4578F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4DA49640>]}
+
+
+============================== 18:03:29.947947 | d9acae56-a3c1-4856-bc4a-24b6dc1843c8 ==============================
+[0m18:03:29.947947 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:03:29.947947 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt run --select example.sql', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:03:29.948950 [debug] [MainThread]: Tracking: tracking
+[0m18:03:30.633964 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:03:30.634967 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:03:30.635965 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:03:30.970359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd9acae56-a3c1-4856-bc4a-24b6dc1843c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D518A5E50>]}
+[0m18:03:31.041218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd9acae56-a3c1-4856-bc4a-24b6dc1843c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4FAC5970>]}
+[0m18:03:31.042230 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:03:31.445501 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:03:31.446502 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:03:31.447503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd9acae56-a3c1-4856-bc4a-24b6dc1843c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4DADCB00>]}
+[0m18:03:31.765533 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:03:31.766566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'd9acae56-a3c1-4856-bc4a-24b6dc1843c8', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D51771D00>]}
+[0m18:03:37.082292 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:03:37.084291 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:03:37.086320 [debug] [MainThread]: Command `dbt run` failed at 18:03:37.085290 after 7.34 seconds
+[0m18:03:37.086320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4D9DF440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D4F4A3830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D52127440>]}
+[0m18:03:37.087289 [debug] [MainThread]: Flushing usage events
+[0m18:03:38.386237 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:07:21.234695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB332BDD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB36B0E330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB365A67B0>]}
+
+
+============================== 18:07:21.239696 | 97a62628-47ba-42d7-9836-49edb4afd51c ==============================
+[0m18:07:21.239696 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:07:21.239696 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:07:21.240696 [debug] [MainThread]: Tracking: tracking
+[0m18:07:21.258181 [info ] [MainThread]: dbt version: 1.13.0-b1
+[0m18:07:21.258181 [info ] [MainThread]: python version: 3.12.10
+[0m18:07:21.259788 [info ] [MainThread]: python path: C:\Users\hrush\Desktop\Snowflake\DBT\Projects-Sushil\reference_doc-20261014T074858Z-1-001\reference_doc\Code_repo\Code_repo\dbt_shared\.venv\Scripts\python.exe
+[0m18:07:21.260181 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:07:21.700706 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:07:21.701742 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:07:21.701742 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:07:21.809066 [info ] [MainThread]: Using profiles dir at C:\Users\hrush\.dbt
+[0m18:07:21.810067 [info ] [MainThread]: Using profiles.yml file at C:\Users\hrush\.dbt\profiles.yml
+[0m18:07:21.810067 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\hrush\Desktop\Snowflake\DBT\Projects-Sushil\reference_doc-20261014T074858Z-1-001\reference_doc\Code_repo\Code_repo\dbt_shared\dbt_project.yml
+[0m18:07:21.811063 [info ] [MainThread]: adapter type: snowflake
+[0m18:07:21.812068 [info ] [MainThread]: adapter version: 1.12.3
+[0m18:07:21.920165 [info ] [MainThread]: Configuration:
+[0m18:07:21.921164 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:07:21.921164 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:07:21.922163 [info ] [MainThread]: Required dependencies:
+[0m18:07:21.922163 [debug] [MainThread]: Executing "git --help"
+[0m18:07:21.966736 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:07:21.967726 [debug] [MainThread]: STDERR: "b''"
+[0m18:07:21.967726 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:07:21.967726 [info ] [MainThread]: Connection:
+[0m18:07:21.968724 [info ] [MainThread]:   account: hsc58486.us-east-1
+[0m18:07:21.968724 [info ] [MainThread]:   user: Hrushi003
+[0m18:07:21.968724 [info ] [MainThread]:   database: DEV_DB
+[0m18:07:21.968724 [info ] [MainThread]:   warehouse: DBT_WH
+[0m18:07:21.968724 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:07:21.969724 [info ] [MainThread]:   schema: RAW
+[0m18:07:21.969724 [info ] [MainThread]:   authenticator: None
+[0m18:07:21.969724 [info ] [MainThread]:   oauth_client_id: None
+[0m18:07:21.969724 [info ] [MainThread]:   query_tag: None
+[0m18:07:21.969724 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:07:21.970724 [info ] [MainThread]:   host: None
+[0m18:07:21.970724 [info ] [MainThread]:   port: None
+[0m18:07:21.970724 [info ] [MainThread]:   proxy_host: None
+[0m18:07:21.970724 [info ] [MainThread]:   proxy_port: None
+[0m18:07:21.971724 [info ] [MainThread]:   protocol: None
+[0m18:07:21.971724 [info ] [MainThread]:   connect_retries: 1
+[0m18:07:21.971724 [info ] [MainThread]:   connect_timeout: None
+[0m18:07:21.971724 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:07:21.972725 [info ] [MainThread]:   retry_all: False
+[0m18:07:21.972725 [info ] [MainThread]:   insecure_mode: False
+[0m18:07:21.972725 [info ] [MainThread]:   reuse_connections: True
+[0m18:07:21.973726 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m18:07:21.973726 [info ] [MainThread]:   workload_identity_provider: None
+[0m18:07:21.973726 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m18:07:21.974726 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m18:07:21.974726 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:07:22.221801 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:07:22.223802 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:07:22.223802 [debug] [MainThread]: On debug: select 1 as id
+[0m18:07:22.223802 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:07:24.527882 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.303 seconds
+[0m18:07:24.529398 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:07:24.530418 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:07:24.532418 [debug] [MainThread]: Command `dbt debug` succeeded at 18:07:24.532418 after 3.44 seconds
+[0m18:07:24.533419 [debug] [MainThread]: Connection 'debug' was left open.
+[0m18:07:24.533419 [debug] [MainThread]: On debug: Close
+[0m18:07:25.608755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB36BC4740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB3A236AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB36497C20>]}
+[0m18:07:25.608755 [debug] [MainThread]: Flushing usage events
+[0m18:07:26.783523 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:08:03.216358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF89C590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF89C350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF89C320>]}
+
+
+============================== 18:08:03.219356 | 31e1b83d-9774-4a27-be7e-c56d4ccea613 ==============================
+[0m18:08:03.219356 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:08:03.220357 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt seed', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:08:03.220357 [debug] [MainThread]: Tracking: tracking
+[0m18:08:03.531890 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:08:03.531890 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:08:03.531890 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:08:03.765980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '31e1b83d-9774-4a27-be7e-c56d4ccea613', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFFBEE180>]}
+[0m18:08:03.816666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '31e1b83d-9774-4a27-be7e-c56d4ccea613', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFB6C1C70>]}
+[0m18:08:03.817689 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:08:04.145080 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:08:04.146982 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:08:04.147987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '31e1b83d-9774-4a27-be7e-c56d4ccea613', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFDEDC140>]}
+[0m18:08:04.529213 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:08:04.529213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '31e1b83d-9774-4a27-be7e-c56d4ccea613', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D01D96690>]}
+[0m18:08:08.146971 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:08:08.147970 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:08:08.148973 [debug] [MainThread]: Command `dbt seed` failed at 18:08:08.148973 after 5.05 seconds
+[0m18:08:08.149966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF870620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D027315B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D027C1610>]}
+[0m18:08:08.149966 [debug] [MainThread]: Flushing usage events
+[0m18:08:09.300491 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:08:29.107666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B2D4150D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B309A7560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B309A7140>]}
+
+
+============================== 18:08:29.112668 | c23b4120-ed63-41b0-9940-fc49b955a53b ==============================
+[0m18:08:29.112668 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:08:29.113667 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt seed', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:08:29.113667 [debug] [MainThread]: Tracking: tracking
+[0m18:08:29.476923 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:08:29.476923 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:08:29.477923 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:08:29.715894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c23b4120-ed63-41b0-9940-fc49b955a53b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B34D8CFB0>]}
+[0m18:08:29.771916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c23b4120-ed63-41b0-9940-fc49b955a53b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B30E7B0B0>]}
+[0m18:08:29.772958 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:08:30.065713 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:08:30.066708 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:08:30.067962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c23b4120-ed63-41b0-9940-fc49b955a53b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B34C45AC0>]}
+[0m18:08:30.295855 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:08:30.296816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'c23b4120-ed63-41b0-9940-fc49b955a53b', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B306C9760>]}
+[0m18:08:33.780147 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:08:33.781181 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:08:33.782213 [debug] [MainThread]: Command `dbt seed` failed at 18:08:33.782213 after 4.85 seconds
+[0m18:08:33.782213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B307259D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B357FE7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020B357FC650>]}
+[0m18:08:33.782213 [debug] [MainThread]: Flushing usage events
+[0m18:08:34.964665 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:09:01.627773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FAD37F0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FA84BDD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FABAEA060>]}
+
+
+============================== 18:09:01.630791 | a8c35200-321a-4feb-be94-91e14888fbec ==============================
+[0m18:09:01.630791 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:09:01.631772 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:09:01.631772 [debug] [MainThread]: Tracking: tracking
+[0m18:09:01.992365 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:09:01.992365 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:09:01.993366 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:09:02.244340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a8c35200-321a-4feb-be94-91e14888fbec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FB018D340>]}
+[0m18:09:02.292925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a8c35200-321a-4feb-be94-91e14888fbec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FB01085C0>]}
+[0m18:09:02.294928 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:09:02.567482 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:09:02.568490 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:09:02.568490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a8c35200-321a-4feb-be94-91e14888fbec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FADD72A50>]}
+[0m18:09:02.777032 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:09:02.778038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a8c35200-321a-4feb-be94-91e14888fbec', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FAFD49430>]}
+[0m18:09:05.999299 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:09:05.999299 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:09:06.000199 [debug] [MainThread]: Command `dbt run` failed at 18:09:06.000199 after 4.50 seconds
+[0m18:09:06.001198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FABA8B830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FADE01E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023FB0A893A0>]}
+[0m18:09:06.001198 [debug] [MainThread]: Flushing usage events
+[0m18:09:07.123929 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:21:39.867096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439B38FCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439B5A0AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439BD496D0>]}
+
+
+============================== 18:21:39.874907 | 92eb3ea4-01c7-47b3-a668-e2298182bc7b ==============================
+[0m18:21:39.874907 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:21:39.875930 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt parse', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:21:39.875930 [debug] [MainThread]: Tracking: tracking
+[0m18:21:40.389642 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:21:40.389642 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:21:40.389642 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:21:40.631000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '92eb3ea4-01c7-47b3-a668-e2298182bc7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439FB3E750>]}
+[0m18:21:40.692229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '92eb3ea4-01c7-47b3-a668-e2298182bc7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439F8E2C60>]}
+[0m18:21:40.693172 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:21:41.008208 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:21:41.009217 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:21:41.009217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '92eb3ea4-01c7-47b3-a668-e2298182bc7b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439F2BCD40>]}
+[0m18:21:41.247881 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:21:41.247881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '92eb3ea4-01c7-47b3-a668-e2298182bc7b', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439FFB6CC0>]}
+[0m18:21:44.576508 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:21:44.576508 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:21:44.577863 [debug] [MainThread]: Command `dbt parse` failed at 18:21:44.577863 after 4.89 seconds
+[0m18:21:44.578869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002439BCDF5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243A0896570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243A060B4D0>]}
+[0m18:21:44.578869 [debug] [MainThread]: Flushing usage events
+[0m18:21:45.812577 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:25:59.389192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CC31FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CC23A660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CC239490>]}
+
+
+============================== 18:25:59.393193 | 6ce8686e-cc79-4307-a1b6-746372edddba ==============================
+[0m18:25:59.393193 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:25:59.394195 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select .\\example.sql', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:25:59.394195 [debug] [MainThread]: Tracking: tracking
+[0m18:25:59.762274 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:25:59.762274 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:25:59.762274 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:26:00.021291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6ce8686e-cc79-4307-a1b6-746372edddba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287D08BEE40>]}
+[0m18:26:00.072272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6ce8686e-cc79-4307-a1b6-746372edddba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287D0838110>]}
+[0m18:26:00.073273 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:26:00.351568 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:26:00.352576 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:26:00.352576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6ce8686e-cc79-4307-a1b6-746372edddba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CCA49370>]}
+[0m18:26:00.557755 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:26:00.558756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '6ce8686e-cc79-4307-a1b6-746372edddba', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287D0E08B30>]}
+[0m18:26:04.204680 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:26:04.205681 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:26:04.207177 [debug] [MainThread]: Command `dbt run` failed at 18:26:04.207177 after 4.99 seconds
+[0m18:26:04.207177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CE299B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287CC43C3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000287D0ED03B0>]}
+[0m18:26:04.207177 [debug] [MainThread]: Flushing usage events
+[0m18:26:05.353554 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:31:52.684241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A8792FD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A85F7ED80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A85F7EE40>]}
+
+
+============================== 18:31:52.688265 | 86328f26-f965-4d6e-96b8-1f545512dc05 ==============================
+[0m18:31:52.688265 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:31:52.689248 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt run --select .\\example.sql', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:31:52.689248 [debug] [MainThread]: Tracking: tracking
+[0m18:31:53.031375 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:31:53.031375 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:31:53.031375 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:31:53.319257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '86328f26-f965-4d6e-96b8-1f545512dc05', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A8269F9B0>]}
+[0m18:31:53.379722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '86328f26-f965-4d6e-96b8-1f545512dc05', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A8581FFB0>]}
+[0m18:31:53.380722 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:31:53.691028 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:31:53.692041 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:31:53.693009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '86328f26-f965-4d6e-96b8-1f545512dc05', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A89ECA7B0>]}
+[0m18:31:53.936019 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:31:53.936019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '86328f26-f965-4d6e-96b8-1f545512dc05', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A89EC82F0>]}
+[0m18:32:03.885981 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:32:03.886976 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:32:03.888976 [debug] [MainThread]: Command `dbt run` failed at 18:32:03.888976 after 11.38 seconds
+[0m18:32:03.889981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A87799DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A85528830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A8A9EFA40>]}
+[0m18:32:03.890994 [debug] [MainThread]: Flushing usage events
+[0m18:32:07.064822 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:33:03.980587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA7CBB4140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA7F336660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA7AA61C40>]}
+
+
+============================== 18:33:03.984783 | c7066384-89f1-4ede-84e2-03639e4fdf39 ==============================
+[0m18:33:03.984783 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:33:03.986229 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'False', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'invocation_command': 'dbt run --select example.sql --no-partial-parse --show-all-deprecations', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:33:03.986229 [debug] [MainThread]: Tracking: tracking
+[0m18:33:04.320847 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:33:04.320847 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:33:04.321844 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:33:04.550163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c7066384-89f1-4ede-84e2-03639e4fdf39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA00027800>]}
+[0m18:33:04.599125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c7066384-89f1-4ede-84e2-03639e4fdf39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA022D7230>]}
+[0m18:33:04.600131 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:33:04.873231 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:33:04.875125 [debug] [MainThread]: Partial parsing not enabled
+[0m18:33:05.079654 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:33:05.080549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'c7066384-89f1-4ede-84e2-03639e4fdf39', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA028D6CC0>]}
+[0m18:33:08.283718 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:33:08.284718 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+[0m18:33:08.285718 [debug] [MainThread]: Command `dbt run` failed at 18:33:08.285718 after 4.42 seconds
+[0m18:33:08.285718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA7F4DD8E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA0252B230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA0252B440>]}
+[0m18:33:08.286718 [debug] [MainThread]: Flushing usage events
+[0m18:33:09.730156 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:36:21.174864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398084DD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013982ACD7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139854BAF60>]}
+
+
+============================== 18:36:21.177872 | 8ebaecee-2ffc-448b-87c0-b49fce9f2b5b ==============================
+[0m18:36:21.177872 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:36:21.178872 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:36:21.178872 [debug] [MainThread]: Tracking: tracking
+[0m18:36:21.494136 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:36:21.495136 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:36:21.495136 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:36:21.710003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8ebaecee-2ffc-448b-87c0-b49fce9f2b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013986F832F0>]}
+[0m18:36:21.759011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8ebaecee-2ffc-448b-87c0-b49fce9f2b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398636F440>]}
+[0m18:36:21.760019 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:36:22.029673 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:36:22.031674 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:36:22.031674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8ebaecee-2ffc-448b-87c0-b49fce9f2b5b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398848CE90>]}
+[0m18:36:22.240041 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:36:22.241042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '8ebaecee-2ffc-448b-87c0-b49fce9f2b5b', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139887A9430>]}
+[0m18:36:25.528907 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:36:25.529807 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:36:25.530917 [debug] [MainThread]: Command `dbt run` failed at 18:36:25.529807 after 4.49 seconds
+[0m18:36:25.530917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139860A1C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398A31E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013988F2DF10>]}
+[0m18:36:25.530917 [debug] [MainThread]: Flushing usage events
+[0m18:36:26.627408 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:36:48.065352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DD973AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DD973F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DD973B60>]}
+
+
+============================== 18:36:48.070370 | 800af834-e015-4674-9e25-bb5d9af87d3f ==============================
+[0m18:36:48.070370 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m18:36:48.071371 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hrush\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt seed', 'log_path': 'C:\\Users\\hrush\\Desktop\\Snowflake\\DBT\\Projects-Sushil\\reference_doc-20261014T074858Z-1-001\\reference_doc\\Code_repo\\Code_repo\\dbt_shared\\logs'}
+[0m18:36:48.071371 [debug] [MainThread]: Tracking: tracking
+[0m18:36:48.392802 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:36:48.393806 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:36:48.393806 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:36:48.607480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '800af834-e015-4674-9e25-bb5d9af87d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DF8832F0>]}
+[0m18:36:48.656303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '800af834-e015-4674-9e25-bb5d9af87d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DFC9F8C0>]}
+[0m18:36:48.658310 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m18:36:48.924517 [debug] [MainThread]: checksum: a93dffdfa77d87d74203897a4d3eff0e17e5284a01b771fa9dabd12b8a39214d, vars: {}, profile: zomato_food_delivery, target: dev, version: 1.13.0b1
+[0m18:36:48.926421 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:36:48.926421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '800af834-e015-4674-9e25-bb5d9af87d3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DFC54D10>]}
+[0m18:36:49.142301 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `meta` as a top-level property of `models[1]` in file
+`models\run_results.yml`. The `meta` top-level property should be moved into the
+`config` of `models[1]`.
+[0m18:36:49.142301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '800af834-e015-4674-9e25-bb5d9af87d3f', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DFDAE690>]}
+[0m18:36:52.773150 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Invalid value for on_schema_change: ignore. Models materialized as incremental with contracts enabled must set on_schema_change to 'append_new_columns' or 'fail'
+[0m18:36:52.773150 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:36:52.774050 [debug] [MainThread]: Command `dbt seed` failed at 18:36:52.774050 after 4.83 seconds
+[0m18:36:52.775051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DBDEF110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DFDAF9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9DFE06240>]}
+[0m18:36:52.775051 [debug] [MainThread]: Flushing usage events
+[0m18:36:54.387272 [debug] [MainThread]: An error was encountered while trying to flush usage events
